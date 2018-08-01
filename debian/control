@@ -1,0 +1,13 @@
+Source: ros-bouncy-openslam-gmapping
+Section: misc
+Priority: extra
+Maintainer: Hunter L. Allen <hunter@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-bouncy-ament-cmake-auto, ros-bouncy-ament-cmake-ros, ros-bouncy-ros-workspace
+Homepage: http://openslam.org/gmapping
+Standards-Version: 3.9.2
+
+Package: ros-bouncy-openslam-gmapping
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-bouncy-ros-workspace
+Description: ROS-ified version of gmapping SLAM.
+ Forked from https://openslam.informatik.uni-freiburg.de/data/svn/gmapping/trunk/
