@@ -1,0 +1,2 @@
+ament_auto_add_library(sensor_range rangereading.cpp rangesensor.cpp)
+ament_target_dependencies(sensor_range)

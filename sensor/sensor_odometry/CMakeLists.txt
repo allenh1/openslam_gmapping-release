@@ -1,0 +1,2 @@
+ament_auto_add_library(sensor_odometry odometryreading.cpp odometrysensor.cpp)
+ament_target_dependencies(sensor_odometry)
